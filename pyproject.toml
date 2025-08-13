@@ -1,0 +1,37 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pyhydrology"
+version = "0.1.0"
+description = "Tools for hydrology: ERA5 downloader and NetCDF point extractor."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+	{ name = "Sanjeev Bashyal", email = "sanjeev.bashyal01@gmail.com" }
+]
+keywords = ["hydrology", "netcdf", "xarray", "ERA5", "cdsapi"]
+classifiers = [
+	"Programming Language :: Python :: 3",
+	"License :: OSI Approved :: MIT License",
+	"Operating System :: OS Independent",
+]
+dependencies = [
+	"xarray",
+	"netCDF4",
+	"pandas",
+	"numpy",
+	"cdsapi",
+]
+
+[project.urls]
+Homepage = "https://github.com/SanjeevBashyal/pyhydrology"
+Source = "https://github.com/SanjeevBashyal/pyhydrology"
+
+[project.scripts]
+pyhydrology-readnc = "pyhydrology.nc:cli"
+pyhydrology-era5-download = "pyhydrology.era5:cli"
+
+
