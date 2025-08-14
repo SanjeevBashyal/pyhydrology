@@ -3,4 +3,7 @@ netCDF4
 pandas
 numpy
 cdsapi
+geopandas
+rioxarray
+shapely
 

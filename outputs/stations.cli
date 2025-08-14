@@ -1,0 +1,17 @@
+id	name	lat	lon	elev	pcp
+1	station1	27.5500	87.8500	2463.0	station1_pcp.txt
+2	station2	27.5500	87.9500	3731.0	station2_pcp.txt
+3	station3	27.5500	88.0500	5084.0	station3_pcp.txt
+4	station4	27.5500	88.1500	4847.0	station4_pcp.txt
+5	station5	27.6500	87.8500	4423.0	station5_pcp.txt
+6	station6	27.6500	87.9500	4283.0	station6_pcp.txt
+7	station7	27.6500	88.0500	5463.0	station7_pcp.txt
+8	station8	27.6500	88.1500	5367.0	station8_pcp.txt
+9	station9	27.7500	87.8500	3781.0	station9_pcp.txt
+10	station10	27.7500	87.9500	4550.0	station10_pcp.txt
+11	station11	27.7500	88.0500	4923.0	station11_pcp.txt
+12	station12	27.7500	88.1500	6489.0	station12_pcp.txt
+13	station13	27.8500	87.8500	4917.0	station13_pcp.txt
+14	station14	27.8500	87.9500	5295.0	station14_pcp.txt
+15	station15	27.8500	88.0500	5220.0	station15_pcp.txt
+16	station16	27.8500	88.1500	6132.0	station16_pcp.txt
