@@ -9,13 +9,13 @@ api_key = "5fa3ac2c-dba0-4cd4-b2b0-3cd3937f9c0b"
 
 ###################################################################################################
 
-years = [str(i) for i in range(2016,2025)]                    ## Time range
+years = [str(i) for i in range(1995,2025)]                    ## Time range
 months = ['01','02','03','04','05','06','07','08','09','10','11','12']
 extents = [25.0, 79.0, 31.0, 89.0]                        ## North, West, South, East. Default: global
 
 destination_folder = 'E:/0 Python/pyhydrology/1 Data/ERA5'  # Update with your ERA5 data directory
 
-variables = ['2m_temperature', 'total_precipitation']
+variables = ['2m_temperature', 'total_precipitation', 'surface_solar_radiation_downwards', '2m_dewpoint_temperature', '10m_u_component_of_wind', '10m_v_component_of_wind']
 
 ###################################################################################################
 
