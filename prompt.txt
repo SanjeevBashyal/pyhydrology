@@ -1,0 +1,39 @@
+just check the nc files in the folder 1 Data/ERA5 and read the code file read_nc_with_elevation_era.py I want modifications such that  
+I want to read solar rediation, 2m dew point temperature, wind velocity u component and v component nc files and generate SWAT input data as in the previous that generates stations.cli having information of spatial grid where data is present as follows:
+
+
+id    name         lat         lon       elev   pcp                  tmp                  slr              hmd              wnd
+1     station101   30.5678    -96.7890    150.0  station_101_pcp.txt  station_101_tmp.txt  station_101_slr.txt   station_101_hmd.txt   station_101_wnd.txt
+2     station102   30.8123    -96.5432    165.0  station_102_pcp.txt  station_102_tmp.txt  station_102_slr.txt   station_102_hmd.txt   station_102_wnd.txt
+
+
+and other txts for each station with the corresponding file name in the given format starting date followed by data
+
+station_XXX.txt
+
+20100101
+0.0
+5.2
+12.7
+0.0
+0.0
+8.1
+-99.0
+3.4
+
+for precipitation and temperature, the code is already okay
+
+whereas for slr radiation get the maximum value of the day to create daily values
+for relative humidity calculate hourly relative humidity values using magnus formula with dew temperature and 2m_temperature formula given below
+$R H(\%)=\exp \left(\frac{17.62 \cdot T_{d,}{ }^* C}{243.12+T_{d,}{ }^* C}-\frac{17.62 \cdot T_a,{ }^* C}{243.12+T_{a,}{ }^* C}\right) \times 100$
+and take the median value of the day
+
+and for wind veocity calculate the resultant velocity from u and v component and get the median value of the day
+
+
+"ERA5_Land_total_precipitation_*.nc"
+"ERA5_Land_2m_temperature_*.nc"
+"ERA5_Land_2m_dewpoint_temperature_*.nc"
+"ERA5_Land_surface_solar_radiation_downwards_*.nc"
+"ERA5_Land_10m_u_component_of_wind*.nc"
+"ERA5_Land_10m_v_component_of_wind*.nc"
