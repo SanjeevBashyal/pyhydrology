@@ -1,0 +1,27 @@
+Name,Change Type,Min,Max,Group,Best Value,Units
+cn2,Replace,-10,80,hru,40.364,
+surlag,Replace,2,5,bsn,3.921,days
+ovn,Replace,2,12,hru,6.94,
+slope_len,Replace,10,50,hru,31.418,m
+alb,Replace,0,0.15,sol,0.111,
+revap_min,Replace,0,20,aqu,12.2,m
+revap_co,Replace,0.03,0.15,aqu,0.119,
+snomelt_lag,Replace,0.05,0.8,hru,0.375,none
+chn,Replace,0.05,0.3,rte,0.066,
+chl,Replace,0.005,450,rte,162.161,km
+alpha,Replace,0.05,0.9,aqu,0.089,days
+bf_max,Replace,0.2,1.5,aqu,1.371,mm
+canmx,Replace,0.2,80,hru,24.278,mm/H20
+k,Replace,0.05,1500,sol,716.8,mm/hr
+awc,Replace,0.05,0.9,sol,0.417,mm_H20/mm
+cbn,Replace,0.1,9,sol,7.776,%
+chk,Replace,0.5,400,rte,17.084,mm/hr
+chs,Replace,0.05,9,rte,5.29,m/m
+chw,Replace,0.5,500,rte,110.832,m
+snow_lte,Replace,0.5,900,hlt,28.82,mm
+snomelt_tmp,Replace,-4,4,hru,-2.914,degrees
+snomelt_max,Replace,0.1,9,hru,3.761,mm/deg/c/day
+snomelt_min,Replace,0.5,9,hru,1.822,mm/deg/c/day
+flo_init_mm,Replace,0.5,4,aqu,1.367,mm
+deep_seep,Replace,0.01,0.35,aqu,0.34,m/m
+epco,Replace,0.05,0.9,hru,0.738,

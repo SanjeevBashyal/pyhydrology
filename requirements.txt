@@ -7,3 +7,7 @@ geopandas
 rioxarray
 shapely
 
+
+pyswatplus
+SALib
+pymoo
