@@ -683,8 +683,8 @@ if __name__ == "__main__":
     print(f"NC folder exists: {NC_FOLDER.exists()}")
     
     # Example usage with date range (optional)
-    START_DATE = "2005-01-01"  # Format: YYYY-MM-DD
-    END_DATE = "2010-12-31"    # Format: YYYY-MM-DD
+    START_DATE = "2000-01-01"  # Format: YYYY-MM-DD
+    END_DATE = "2015-12-31"    # Format: YYYY-MM-DD
     main(NC_FOLDER, VECTOR_FILE, DEM_FILE, OUTPUT_DIR, START_DATE, END_DATE)
     
     # Default execution without date filtering

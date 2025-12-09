@@ -1,0 +1,12 @@
+﻿Location,Altitude,Houses (100L/d),Hotels (500L/d),Schools (500L/d),Human Population (200L/d),Mule/Cow (15L/d),Yak (10L/d),Goat (5L/d),Pig (5L/d),Chickens (0.2L/d),Potato (4500 m3/ha),Maize (6000 m3/ha),Wheat (5000 m3/ha),"Others (Jau, Fapar) (3000 m3/ha)",What time of the Year Crops are Grown?
+Lamatar,1920,13,1,0,20,0,0,15,5,10,3,1,0,0,"March,April,May,June,July"
+Phedi,2093,1,0,0,3,0,0,0,0,0,0.25,0.25,0,0,"March,April,May,June,July"
+Amjilosha,2415,4,0,0,8,0,0,0,0,0,1,0.5,0,0,"March,April,May,June,July"
+Thangem,2385,0,1,0,2,0,0,0,0,0,0,0.25,0.25,0,"March,April,May,June,July"
+Syajugma,2810,1,0,0,3,0,0,0,0,0,0.2,0.1,0.1,0,"March,April,May,June,July"
+Gyabla,2735,18,3,1,65,22,200,30,0,0,4,0,2,2,"March,April,May,June,July"
+Phale,3256,14,3,0,72,4,0,0,0,0,4.5,0,0,0,"March,April,May,June,July"
+Ghunsa,3418,32,7,1,120,17,150,15,0,0,2.5,0,0,2,"March,April,May,June,July"
+Lyakep,4105,0,0,0,0,0,0,0,0,0,0.5,0,0,0,"March,April,May,June,July"
+Kangpachen,4097,12,7,0,15,10,10,0,0,0,1,0,0,0,"March,April,May,June,July"
+Lhonak,4770,0,7,0,10,0,25,0,0,0,0,0,0,0,"March,April,May,June,July"

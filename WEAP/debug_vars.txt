@@ -1,0 +1,29 @@
+Branch: Ghunsa_Khola_Hydropower_Project
+Variables:
+ - Name: 'Max Turbine Flow', ID: 1037
+ - Name: 'Plant Factor', ID: 1039
+ - Name: 'Generating Efficiency', ID: 1040
+ - Name: 'Fixed Head', ID: 1041
+ - Name: 'Electricity Revenue', ID: 303
+ - Name: 'Hydropower Priority', ID: 847
+ - Name: 'Energy Demand', ID: 885
+ - Name: 'Capital Costs', ID: 272
+ - Name: 'Fixed Operating Costs', ID: 273
+ - Name: 'Variable Operating Costs', ID: 274
+ - Name: 'Fixed Benefits', ID: 294
+ - Name: 'Variable Benefits', ID: 295
+ - Name: 'Total Node Inflow', ID: -36
+ - Name: 'Streamflow', ID: -38
+ - Name: 'Total Node Outflow', ID: -48
+ - Name: 'Hydropower Generation', ID: -62
+ - Name: 'Net Benefit', ID: -115
+ - Name: 'Net Present Value', ID: -119
+ - Name: 'Hydropower Demand Energy', ID: -170
+ - Name: 'Hydropower Unmet Demand', ID: -171
+ - Name: 'Hydropower Coverage', ID: -172
+ - Name: 'Hydropower Reliability', ID: -173
+ - Name: 'Hydropower Demand Flow', ID: -174
+ - Name: 'Hydropower Turbine Flow', ID: -180
+ - Name: 'Flow from Surface Water to GW Unconstrained', ID: -236
+ - Name: 'Flow from Surface Water to GW Constrained', ID: -241
+ - Name: 'Energy Use', ID: -371
