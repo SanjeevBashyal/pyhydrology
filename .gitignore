@@ -1,6 +1,10 @@
 #Data folders
 1 Data/
 
+# SWAT+ output files
+WEAP/channel_sd_day.txt
+WEAP/channel_sd_mon.txt
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
